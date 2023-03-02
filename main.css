@@ -434,6 +434,7 @@ nav ion-icon{
     #header{
         background-image: url(images/Profile\ Pic.jpg);
         background-position: right;
+        object-fit: cover;
     }
 
     .header-text{
@@ -443,8 +444,15 @@ nav ion-icon{
 
     .header-text h1{
         font-size: 30px;
+        color: black;
+    }
+    .logo{
+        color: black;
+    }
 
-
+    .header-text p{
+        color: black;
+        font-weight: 600;
     }
 
     nav ion-icon{
@@ -512,4 +520,8 @@ nav ion-icon{
     color: #61b752;
     margin-top: -40px;
     display: block;
+}
+
+.about-img{
+    object-fit: cover;
 }
