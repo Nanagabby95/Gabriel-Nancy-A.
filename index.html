@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio Website</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="header">
+
+<div class="container">
+    <nav>
+      <label class="logo"><span>N</span>ancy.</label>
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <ion-icon name="close-sharp" onclick="closemenu()"></ion-icon>
+      </ul>
+      <ion-icon name="menu-sharp" onclick="openmenu()"></ion-icon>
+    </nav>
+    <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'm <span>Nancy</span> Gabriel <br>from Nigeria</h1>
+    </div>
+</div>
+</div>
+
+<!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/WEBNG PIC.jpg" alt="woman-image" class="about-img">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I'm a graduate of University of Nigeria. English in Education is my Discipline.
+                    But over the years I developed great love for tech skills and demostrated that 
+                    practically by taking up software courses and completing my courses, eager to
+                    acquire more knowledge in them. My love for tech skills has intensified throughout 
+                    these years, building and making websites awesome and interactive has added meaning
+                    to my existence. I am passionate about what I do, I am responsible, creative, open-minded, 
+                    friendly and an ambitious web developer. This is how I see myself, and hope you will give me a
+                    chance to prove my words in the job, or at least in this interview.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Building Websites</li>
+                            <li><span>Email Templates</span><br>Building Newsletter</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2022</span><br>FreeCode Academy</li>
+                            <li><span>2021-2022</span><br>Frontend Mentorship Cohort</li>
+                            <li><span>2019-2021</span><br>Newsletter developer at Sun Tech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>JS Algorithm, FreeCode Academy</li>
+                            <li><span>2000</span><br>Frontend Mentorship Cohort</li>
+                            <li><span>2019</span><br>University of Nigeria</li>
+                           
+
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Services -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <ion-icon name="code-slash-outline"></ion-icon>
+                <h2>Web Development</h2>
+                <p>We bring your brand online where clients will reach out to you globally. </p>
+                <a href="https://wa.me/+2348102924039?=I'm%20interested%20in%20your%20service">Learn more</a>
+            </div>
+
+            <div>
+                <ion-icon name="mail-open-outline"></ion-icon>
+                <h2>Email Templates</h2>
+                <p>Responsive Newsletters that are interactive and informing for easy communication with your clients</p>
+                <a href="https://wa.me/+2348102924039?=I'm%20interested%20in%20your%20service">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">My Work</h2>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="/images/web dev 2.jpeg" alt="work-img">
+                    <div class="layer">
+                        <h3>Website Coding</h3>
+                        <p>Your Brand introduces you to the world. Let my coding skills help you achieve that</p>
+                        <a href="#"><ion-icon name="unlink"></ion-icon></a>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src="/images/news letter image.jpg" alt="work-img">
+                    <div class="layer">
+                        <h3>Newsletter</h3>
+                        <p>I promote  products and services that enable you create an individual touch point with your clients and subscribers</p>
+                        <a href="tel:08102924039"><ion-icon name="unlink"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+        <a href="/more.html" class="btn">See More</a>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <!-- <div> -->
+                    <p><ion-icon name="send-sharp"><a href="https://mail.google.com/mail/nancitonana86@gmail.com"></a></ion-icon>nancitonana86@gmail.com</p>
+                    <p><ion-icon name="call-sharp"></ion-icon>+2348102924039</p>
+                <!-- </div> -->
+                    <div class="social-icons">
+                        <a href="https://tw.me/@nancitonana86"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://wa.me/+2348102924039?=I'm%20interested%20in%20your%20service"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        <a href="http://m.me/GabrielNancy"><ion-icon name="logo-facebook"></ion-icon></a>
+                    </div>
+
+                    <a href="images/Gabriel Nancy.docx" download  class="btn btn2">Download CV</a>
+              
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Nancy. Passion driven Nana<ion-icon name="flame-sharp"></ion-icon></p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+   
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbynoLRObjNR9itrh9U_X5s9a2VUyzDiCJRqOIyb9LiT4CpqaTzMDbbiELaXGyf7xFtvqg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
