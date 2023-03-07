@@ -16,9 +16,8 @@ body{
 }
 
 #header{
-   
     height: 100vh;
-    background-image: url(images/new\ portfolio\ profile\ 2.jpg);
+    background-image: url(images/portfolio\ pic.jpg);
     background-position: right;
    background-size: 100vh;
    background-repeat: no-repeat;
@@ -44,12 +43,14 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+  
 }
 nav ul li a{
     color: #ee0e0e;
@@ -468,11 +469,13 @@ nav ion-icon{
     nav ion-icon{
         display: block;
         font-size: 25px;
-        color: #000000;
+        color:white;
+        font-size: 30px;
+        margin-bottom: 3px;
     }
 
     nav ul{
-        background: #ff004f;
+        background: red;
         position: fixed;
         top: 0;
         right: -200px;
@@ -483,11 +486,7 @@ nav ion-icon{
        transition: right 0.5s;
     }
 
-    nav ion-icon{
-        color: black;
-        font-size: 30px;
-        margin-bottom: 3px;
-    }
+   
 
     nav ul li a{
         color: #ffffff;
