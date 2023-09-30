@@ -153,6 +153,9 @@ nav ul li a:hover::after{
 .card-info{
     font-size: 14px !important;
 }
+#overview .card{
+    height: 530px !important;
+}
 .visit-site:hover{
     color: aqua !important;
 }
