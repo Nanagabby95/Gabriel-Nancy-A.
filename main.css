@@ -546,6 +546,9 @@ margin-top: 20px;
         width: 40%;
     
     }
+    #overview .card{
+        height: 600px !important;
+    }
 }
 @media only screen and (max-width:600px) {
     .logo-gif{
@@ -644,6 +647,9 @@ margin-top: 20px;
     }
     #overview .card{
         margin: 20px 0;
+    }
+    #overview .card{
+        height: auto !important;
     }
 }
 
